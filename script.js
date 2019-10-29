@@ -57,15 +57,7 @@ function start(city) {
 
         })
 
-        .catch(function(error) {
-
-            // Affiche une erreur
-
-            console.error(error);
-
-            alert("ville non-trouvee, reessayer");
-
-        });
+        
 
 }
 
@@ -73,7 +65,7 @@ function start(city) {
 
 //Fonction appelée lors de l'actualisation de la ville
 
-function Actualiser() {
+function actualiser() {
 
 
 
